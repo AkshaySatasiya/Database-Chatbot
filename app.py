@@ -12,15 +12,21 @@ import time
 import openai
 from langchain.agents import Tool
 
+
+## Configer this OpenAI API key and Database Credentials before running this script
+
 # Set your OpenAI API key
 os.environ["OPENAI_API_KEY"] = "YOUR_OPENAI_API_KEY"
 
-# Database connection
+# Database Credentials 
 db_user = "postgres"
 db_password = "PASSWORD"
 db_host = "localhost"
 db_name = "schoolDB"
 db_port = 5432
+
+ 
+ # Database connection
 SQLALCHEMY_DATABASE_URL = f"postgresql://{db_user}:{db_password}@{db_host}:{db_port}/{db_name}"
 db = SQLDatabase.from_uri(SQLALCHEMY_DATABASE_URL)
 

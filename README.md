@@ -22,8 +22,8 @@ To set up the SQL Chatbot Assistant on your local machine, follow these steps:
 
 Before running the application, configure the following environment variables:
 
-- `OPENAI_API_KEY`: Your OpenAI API key for accessing GPT models.
-- Database connection details (`db_user`, `db_password`, `db_host`, `db_port`, `db_name`) in the script.
+- `OPENAI_API_KEY`: Your **OpenAI API Key** for accessing GPT models.
+- **Database connection** details (`db_user`, `db_password`, `db_host`, `db_port`, `db_name`) in the script.
 
 ## Usage 🚀
 
